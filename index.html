@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Train Schedule</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+    <script src="assets/javascript/app.js"></script>
+    <!-- favicon goes here -->
+</head>
+
+<body>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <div class="title">
+            <h1>Title About Trains</h1>
+            <h3>Something witty about trains</h3>
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <div class="add-train-container">
+            <div>
+                <p id="box-top">Current Train Schedule</p>
+                
+                <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Train Name</th>
+                            <th scope="col">Destination</th>
+                            <th scope="col">Frequency (min)</th>
+                            <th scope="col">Next Arrival</th>
+                            <th scope="col">Minutes Away</th>
+                          </tr>
+                        </thead>
+
+                        <tbody>
+                          <tr>
+                            <th scope="row"></th>
+                            
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            
+                          </tr>
+                          <tr>
+                            <th scope="row"></th>
+                            
+                          </tr>
+                        </tbody>
+                      </table>
+                
+            </div>
+        </div>
+    <div class="col-md-2"></div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-2"></div>
+    <div class="col-md-8">
+        <div class="add-train-container">
+            <p id="box-top">Add a Train</p>
+            <form>
+            <div class="form-group">
+                <label for="exampleInputEmail1">Train Name</label>
+                <input type="text" class="form-control" id="name-train">
+            </div>
+            
+            <div class="form-group">
+                <label for="exampleInputPassword1">Destination</label>
+                <input type="text" class="form-control" id="destination-train">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">First Train Time (HHmm - Military Time)</label>
+                <input type="time" class="form-control" id="time-train">
+            </div>
+
+            <div class="form-group">
+                <label for="exampleInputPassword1">Frequency (in minutes)</label>
+                <input type="time" class="form-control" id="frequency-train">
+            </div>
+                    
+            <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </div>
+    </div>
+    <div class="col-md-2"></div>
+</div>
+
+
+</body>
+
+
+</html>
